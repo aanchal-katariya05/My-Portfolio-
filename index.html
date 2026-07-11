@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo">Portfolio</a> 
 
         <nav class = "navbar">
        <a href="#home" style="--i:1" class="active">Home</a>
@@ -17,6 +17,9 @@
        <a href="#skills" style="--i:3">Skills</a>
        <a href="#portfolio" style="--i:4">Portfolio</a>
        <a href="#contact" style="--i:5">Contact</a>
+       <button onclick="change()" class="theme-btn">
+        <img src="sun.png" id="icon">
+       </button>
          </nav>
     </header>
 
@@ -68,28 +71,46 @@
         </section>
     
 <!-- this is my about section -->
+ 
+<div class="about-info">
 
-        <section class="about" id="about">
+    <div class="info-card">
+        <i class='bx bxs-graduation'></i>
 
-    <div class="about-img">
-        <img src="aanchal's photo.png" alt="">
+        <div>
+            <h3>Education</h3>
+            <p>B.Tech (ECE) • 2023 - 2027</p>
+        </div>
     </div>
 
-    <div class="about-text">
-        <h2>About <span>Me</span></h2>
+    <div class="info-card">
+        <i class='bx bx-code-alt'></i>
 
-        <p>
-            I am a passionate Java Full Stack Developer and Web Designer.
-            I enjoy creating responsive and user-friendly websites.
-            Currently, I am improving my skills in Java, JavaScript,
-            frontend development, and backend technologies.
-        </p>
-
-        <a href="#" class="btn-box">Read More</a>
+        <div>
+            <h3>Projects</h3>
+            <p>30+ Frontend & Java Projects</p>
+        </div>
     </div>
 
-</section>
+    <div class="info-card">
+        <i class='bx bx-briefcase'></i>
 
+        <div>
+            <h3>Experience</h3>
+            <p>Java Full Stack Internship</p>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <i class='bx bx-laptop'></i>
+
+        <div>
+            <h3>Tech Stack</h3>
+            <p>Java • HTML • CSS • JavaScript • Spring Boot • MySQL</p>
+        </div>
+    </div>
+
+</div>
 
 
 <!-- this is my skills section -->
